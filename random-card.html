@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Card</title>
+    <link rel="stylesheet"
+          href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    
+    <style>
+        body{
+            background-color: rgb(33, 111, 33);
+            text-align: center;
+        }
+
+        #get-card{
+            background-color: gold;
+            color: rgb(59, 145, 59);
+            border: none;
+        }
+
+        .card{
+            position: absolute;
+            left: 40%;
+            top: 25%;
+        }
+
+        h3{
+            left: 40%;
+            top: 40%;
+            position: absolute;
+            background-color: #bc1212;
+            color: #00000080;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+    
+    <h1 class="text-center">Random Cards</h1>
+    <a class="btn btn-primary" id="get-card">DRAW!</a>
+
+    <div class="cards"></div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="cards.js"></script>
+
+</body>
+
+</html>
